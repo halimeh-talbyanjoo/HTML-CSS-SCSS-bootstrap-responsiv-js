@@ -1,0 +1,268 @@
+@media screen and (max-width:576px){
+    .header{
+        display: none !important;
+    }
+    .nav-1{
+        display: flex;
+    }
+   .nav-2,.nav-3{
+        display: none !important;
+   }
+   .menujs>ul>li:nth-child(1){
+    color: #F9A392;
+    animation: anima2 2s  linear infinite ;
+}
+@keyframes anima2 {
+    10%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(-200px);
+    }
+}
+.menujs>ul>li:nth-child(2){
+    animation: anima3 2s  linear infinite ;
+}
+@keyframes anima3 {
+    25%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(-200px);
+    }
+}
+.menujs>ul>li:nth-child(3){
+    animation: anima4 2s  linear infinite ;
+}
+@keyframes anima4 {
+    40%{
+        transform: translateX(-160px);
+    }
+    100%{
+        transform: translateX(-160px);
+    }
+}
+.menujs>ul>li:nth-child(4){
+    animation: anima5 2s  linear infinite ;
+}
+@keyframes anima5 {
+    60%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(-200px);
+    }
+}
+.menujs>ul>li:nth-child(5){
+    animation: anima6 2s  linear infinite ;
+}
+@keyframes anima6 {
+    70%{
+        transform: translateX(-300px);
+    }
+    100%{
+        transform: translateX(-300px);
+    }
+}
+.menujs>ul>li:nth-child(6){
+    animation: anima6 2s  linear infinite ;
+}
+@keyframes anima6 {
+    80%{
+        transform: translateX(-195px);
+    }
+    100%{
+        transform: translateX(-195px);
+    }
+}
+
+}
+@media screen and (min-width:576px){
+    .header{
+        display:
+         none !important;
+    }
+    .nav-1{
+        display: flex;
+    }
+    .nav-2,.nav-3{
+        display: none !important;
+    }
+    .menujs>ul>li:nth-child(1){
+        color: #F9A392;
+        animation: anima10 5s  linear infinite ;
+    }
+    @keyframes anima10 {
+        10%{
+            transform: translateX(-400px);
+        }
+        100%{
+            transform: translateX(-400px) ;
+        }
+    }
+    .menujs>ul>li:nth-child(2){
+        animation: anima11 2s  linear infinite ;
+    }
+    @keyframes anima11 {
+        25%{
+            transform: translateX(-400px);
+        }
+        100%{
+            transform: translateX(-400px);
+        }
+    }
+    .menujs>ul>li:nth-child(3){
+        animation: anima12 2s  linear infinite ;
+    }
+    @keyframes anima12 {
+        40%{
+            transform: translateX(-350px);
+        }
+        100%{
+            transform: translateX(-350px);
+        }
+    }
+    .menujs>ul>li:nth-child(4){
+        animation: anima13 2s  linear infinite ;
+    }
+    @keyframes anima13 {
+        60%{
+            transform: translateX(-380px);
+        }
+        100%{
+            transform: translateX(-380px);
+        }
+    }
+    .menujs>ul>li:nth-child(5){
+        animation: anima14 2s  linear infinite ;
+    }
+    @keyframes anima14 {
+        70%{
+            transform: translateX(-400px);
+        }
+        100%{
+            transform: translateX(-400px);
+        }
+    }
+    .menujs>ul>li:nth-child(6){
+        animation: anima15 2s  linear infinite ;
+    }
+    @keyframes anima15 {
+        80%{
+            transform: translateX(-360px);
+        }
+        100%{
+            transform: translateX(-360px);
+        }
+    }
+    
+}
+@media screen and (min-width:768px){
+    .header{
+        display: none !important;
+    }
+    .nav-1{
+        display: flex;
+    }
+    .nav-2,.nav-3{
+        display: none !important;
+    }
+    .menujs>ul>li:nth-child(1){
+        color: #F9A392;
+        animation: anima20 5s  linear infinite ;
+    }
+    @keyframes anima20 {
+        10%{
+            transform: translateX(-600px);
+        }
+        100%{
+            transform: translateX(-600px) ;
+        }
+    }
+    .menujs>ul>li:nth-child(2){
+        animation: anima21 2s  linear infinite ;
+    }
+    @keyframes anima21 {
+        25%{
+            transform: translateX(-600px);
+        }
+        100%{
+            transform: translateX(-600px);
+        }
+    }
+    .menujs>ul>li:nth-child(3){
+        animation: anima22 2s  linear infinite ;
+    }
+    @keyframes anima22 {
+        40%{
+            transform: translateX(-550px);
+        }
+        100%{
+            transform: translateX(-550px);
+        }
+    }
+    .menujs>ul>li:nth-child(4){
+        animation: anima23 2s  linear infinite ;
+    }
+    @keyframes anima23 {
+        60%{
+            transform: translateX(-580px);
+        }
+        100%{
+            transform: translateX(-580px);
+        }
+    }
+    .menujs>ul>li:nth-child(5){
+        animation: anima24 2s  linear infinite ;
+    }
+    @keyframes anima24 {
+        70%{
+            transform: translateX(-600px);
+        }
+        100%{
+            transform: translateX(-600px);
+        }
+    }
+    .menujs>ul>li:nth-child(6){
+        animation: anima25 2s  linear infinite ;
+    }
+    @keyframes anima25 {
+        80%{
+            transform: translateX(-560px);
+        }
+        100%{
+            transform: translateX(-560px);
+        }
+    }
+}
+
+@media screen and (min-width:992px){
+    .header{
+        display: flex !important;
+    }
+    .nav-1{
+        display: flex;
+    }
+    .nav-2,.nav-3{
+        display: flex !important;
+    }
+    .menusmal{
+        display: none !important;
+    }
+}
+@media screen and (min-width: 1200px){
+    .header{
+        display: flex !important;
+    }
+    .nav-1{
+        display: flex;
+    }
+    .nav-2,.nav-3{
+        display: flex !important;
+    }
+    
+}
+
+@media screen and (min-width:1400px) {
+
+}
